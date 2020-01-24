@@ -14,12 +14,7 @@ labels:
 ## Feeling about Javascript And ES6
   Personally, I like Javascript and prefer javascript over java and C. Javascript seems more basic and can shorten the line of code needed to type. Javascript can be tested and written on chrome which is pretty cool compared to C which needs a compiler. So, overall right now Javascript makes me feel comfortable. Also, ES6 help make Javascript even better, making let and const helping javascript to be more staple and arrow function is what interests me the most. When writing function for code normally looks like this:
 
-function add(x, y){
-  return x+y;
-}
-but with ES6:
-
-const add = (x,y) => x+y;
+<img class="ui image" src="../images/ggwpkk.png">
 
 This just makes everything more simple and easy to type. No need {}, and everything in one line. 
 
