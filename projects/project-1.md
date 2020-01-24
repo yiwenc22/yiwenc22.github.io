@@ -26,6 +26,6 @@ summary: This Project is created by me and Chakhon for the class ICS 111, We dra
  
  Source: <a href="https://github.com/yiwenc22/Dice-and-Monswer.git"><i class="large github icon"></i>Dice&Monster</a>
  
- Gameplay on Youtude: Source: <a href="https://www.youtube.com/watch?v=Nr1R9RVr3mc&t=0s"></i>Youtude</a>
+ Gameplay on Youtude: Source: <a href="https://www.youtube.com/watch?v=Nr1R9RVr3mc&t=0s"><>Youtude</a>
 
   
