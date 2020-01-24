@@ -21,8 +21,8 @@ summary: This Project is created by me and Chakhon for the class ICS 111, We dra
   
  I Learned how to use pixel to design and draw pictures, teamwork, debugging, and sprite sheet in the process of making this game. Because of all the picture was drawn by me and chakhon, we feel that we are better at drawing with pixels. Working with someone is always better than by yourself, we helped each other when one of us does not understand. The funniest part and learn the most was debugging, of course, the game did not go as planned as the first few time but with time and teamwork, we were able to correct all the mistakes.
  
- Source: <a href="https://github.com/yiwenc22/Dice-and-Monswer.git"><i class="large github icon"></i>theVacay/vacay</a>
+ Source: <a href="https://github.com/yiwenc22/Dice-and-Monswer.git"><i class="large github icon"></i>Dice&Monster</a>
  
- Gameplay on Youtude: Source: <a href="https://www.youtube.com/watch?v=Nr1R9RVr3mc&t=0s"></i>theVacay/vacay</a>
+ Gameplay on Youtude: Source: <a href="https://www.youtube.com/watch?v=Nr1R9RVr3mc&t=0s"></i>Youtude</a>
 
   
