@@ -22,6 +22,6 @@ summary: A in game tornement that I attend with my friend and got the first plac
   What I learn from this clash is we need to team work, trust, and skills to win. Trash talking or blaming other is not going help win the game. Being calm and communicate with everyone in the team is the way to win the games and get all the award.
 
 
-Clash Explained: <a href="https://github.com/jogarces/ics-313-text-game">Leauge of Legends Clash explained.</a>
+Clash Explained: <a href="https://na.leagueoflegends.com/en/featured/clash#/">Leauge of Legends Clash explained.</a>
 
 
