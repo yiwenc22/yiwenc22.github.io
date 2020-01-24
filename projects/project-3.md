@@ -1,18 +1,19 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
-title: Cotton
+image: images/clash1.png
+title: Clash from League of Legend
 permalink: projects/cotton
 # All dates must be YYYY-MM-DD format!
-date: 2014-04-12
+date: 2019-12-07
 labels:
-  - Lisp
-  - GitHub
-summary: A text adventure game I developed for ICS 313.
+  - Teamwork
+  - Games
+  - Victory
+summary: A in game tornement that I attend with my friend and got the first place of the eight team.
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+<img class="ui image" src="{{ site.baseurl }}/images/first.png">
 
 Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
 
