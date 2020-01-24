@@ -21,4 +21,4 @@ summary: A program that was build to solve suduku for the class of ICS 211.
    
    This project helps me understand the recursive function and how it can help to do try, error, and check. The project also helps me understand how to develop a test to check if the code was working fine or not. The most important thing I learn was critical thinking and problem solving when I face problem in the function or class I try to use a different of thinking or tracing the code if the code is working or not.
    
-Source: <a href="https://github.com/yiwenc22/Source-code.git"><i class="large github icon"></i>Suduku</a>
+Source: <a href="https://github.com/yiwenc22/Source-code.git"><i class="large github icon"></i>Sudoku</a>
