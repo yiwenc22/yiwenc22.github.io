@@ -13,7 +13,7 @@ labels:
 summary: A in game tornement that I attend with my friend and got the first place of the eight team.
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/first.png">
+<img class="ui image" src="{{ site.baseurl }}/images/first.jpg">
 
 
 Source: <a href="https://github.com/jogarces/ics-313-text-game">Leauge of Legends Clash explained.</a>
