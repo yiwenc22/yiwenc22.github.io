@@ -3,9 +3,9 @@ layout: project
 type: project
 image: images/heroselect2.png
 title: Dice & Monswer
-permalink: projects/micromouse
+permalink: projects/dice
 # All dates must be YYYY-MM-DD format!
-date: 2018-05-03
+date: 2018-11-03
 labels:
   - Java
   - Games
