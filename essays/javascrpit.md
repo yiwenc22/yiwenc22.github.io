@@ -9,6 +9,6 @@ labels:
   - Javascript
 ---
 
-<img class="ui image" src="../images/software-engineer2.jpg">
+<img class="ui image" src="../images/ok1.png">
 
 ## 
