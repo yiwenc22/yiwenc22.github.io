@@ -11,6 +11,7 @@ labels:
   - Games
   - Calculations
 summary: This Project is created by me and Chakhon for the class ICS 111, We draw, plan, and created this game.
+<a href="https://www.youtube.com/watch?v=Nr1R9RVr3mc&t=0s">Gameplay</a>
 ---
 
 <img class="ui image" src="../images/dice1.png">
