@@ -14,9 +14,12 @@ labels:
  
 ## How to Ask or Create Smart Question
   Compare to a simple question, smart questions are more detailed, clear, and easy to answer. Smart questions should be a question that you can not answer but still have an idea of what is happening. If the question can be google or answer but someone you know then does not post that question online because that is not a smart question. The smart question should be clear on the subject, easy to answer, and benefits. Smart questions about food should not be in Stack Overflow which is on the wrong subject. For example, this question I found in Stack Overflow. 
+
 <img class="ui image" src="../images/goodquestionss.png">
+
 This question is clear, detail of what the asker wants, and smart. This question was asked 10 years ago, but still got an update on the answer and question edit till today. The answer was edited often showing that the question is a challenge which keeps respondent more excited. Which is good, making respondents do research and give you the best answer they could find. 
 Now here is a not so Smart example question on Stack Overflow:
+
 <img class="ui image" src="../images/badquestionss.png">
 The question is super off topic which leads to removed after only being up on Stack Overflow last than a day. This question is clear, but is off-topic and the answer can be found online from google. Stack Overflow is for help on code or programming help. 
 
