@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/feellll.png
 title: Manoa Music Bubs
-permalink: projects/dice
+permalink: projects/music
 # All dates must be YYYY-MM-DD format!
 date: 2020-05-15
 labels:
