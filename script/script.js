@@ -32,7 +32,7 @@ const toggleTheme = () =>
 btnTheme.addEventListener('click', toggleTheme)
 
 const displayList = () => {
-	const navUl = document.querySelector('.nav__list')
+	const navUl = document.querySelector('.nav_list')
 
 	if (btnHamburger.classList.contains('fa-bars')) {
 		btnHamburger.classList.remove('fa-bars')

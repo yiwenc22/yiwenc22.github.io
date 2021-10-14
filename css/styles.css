@@ -227,27 +227,27 @@ main {
   text-transform: uppercase;
 }
 
-.nav__list {
+.nav_list {
   margin-right: 1.5em;
   display: flex;
 }
 
-.nav__list-item {
+.nav_list-item {
   margin-left: 1.5em;
 }
 
-.nav__hamburger {
+.nav_hamburger {
   display: none;
   width: 1em;
 }
 
 .about {
   flex-direction: column;
+  text-align: right;
   margin-top: 3em;
 }
 
 .name {
-  text-align: left;
   color: var(--clr-primary);
 }
 
@@ -255,18 +255,17 @@ main {
   width: 100%;
 }
 
-.nav__list-item {
+.nav_list-item {
   margin: 0.5em 0;
 }
 
-.nav__hamburger {
+.nav_hamburger {
   display: flex;
   margin-left: 0.8em;
 }
 
 .about {
   align-items: flex-start;
-  text-align: left;
   margin-top: 2em;
 }
 
@@ -275,14 +274,17 @@ main {
   margin-top: 2em;
 }
 
+.aboutProject {
+  flex-direction: column;
+  margin-top: 3em;
+}
+
 .job {
-  text-align: left;
   margin-top: 1.2em;
 }
 
 .description {
   font-size: 1rem;
-  text-align: left;
   max-width: 800px;
 }
 
@@ -319,18 +321,18 @@ main {
   transform: translateY(-7px);
 }
 
-.project__description {
+.project_description {
   margin-top: 1em;
 }
 
-.project__stack {
+.project_stack {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 1.2em 0;
 }
 
-.project__stack-item {
+.project_stack-item {
   margin: 0.5em;
   font-weight: 500;
   font-size: 0.8rem;
@@ -389,7 +391,7 @@ main {
     margin-top: 4em;
   }
 
-  .nav__list {
+  .nav_list {
     flex-direction: column;
     padding: 4em 0;
     position: absolute;
