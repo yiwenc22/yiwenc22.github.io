@@ -247,6 +247,12 @@ main {
   margin-top: 3em;
 }
 
+.about {
+  align-items: flex-start;
+  margin-top: 2em;
+  text-align: right;
+}
+
 .name {
   color: var(--clr-primary);
 }
@@ -262,11 +268,6 @@ main {
 .nav_hamburger {
   display: flex;
   margin-left: 0.8em;
-}
-
-.about {
-  align-items: flex-start;
-  margin-top: 2em;
 }
 
 .aboutProject {
