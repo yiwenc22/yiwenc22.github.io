@@ -27,7 +27,7 @@ body {
   --clr-bg-alt: #fff;
   --clr-fg: #555;
   --clr-fg-alt: #444;
-  --clr-primary: #395339;
+  --clr-primary: #80c480;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -36,7 +36,7 @@ body {
   --clr-bg-alt: #313135;
   --clr-fg: #ffffff;
   --clr-fg-alt: #ffffff;
-  --clr-primary: #395339;
+  --clr-primary: #80c480;
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
@@ -246,21 +246,21 @@ main {
   margin-top: 3em;
 }
 
-.about__name {
+.name {
   color: var(--clr-primary);
 }
 
-.about__role {
+.job {
   margin-top: 1.2em;
 }
 
-.about__desc {
+.description {
   font-size: 1rem;
   max-width: 800px;
 }
 
-.about__desc,
-.about__contact {
+.description,
+.contact {
   margin-top: 2.4em;
 }
 

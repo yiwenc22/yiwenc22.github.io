@@ -25,7 +25,7 @@ const setTheme = (bodyClass, btnClass) => {
 	localStorage.setItem('portfolio-theme', bodyClass)
 	localStorage.setItem('portfolio-btn-theme', btnClass)
 }
-
+//stackoverflow
 const toggleTheme = () =>
 	isDark() ? setTheme('light', 'fa-moon') : setTheme('dark', 'fa-sun')
 
