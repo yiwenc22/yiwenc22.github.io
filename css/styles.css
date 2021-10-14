@@ -314,7 +314,7 @@ main {
   margin-left: 0.5em;
 }
 
-.skills__list {
+.skills_list {
   max-width: 450px;
   width: 95%;
   margin: 0 auto;
@@ -323,7 +323,7 @@ main {
   justify-content: center;
 }
 
-.skills__list-item {
+.skills_item {
   margin: 0.5em;
 }
 
