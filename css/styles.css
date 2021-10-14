@@ -293,11 +293,11 @@ main {
   margin-top: 2.4em;
 }
 
-.about .link-icon {
+.about .link-icon .aboutProject {
   margin-right: 0.8em;
 }
 
-.about .btn-outline {
+.about .btn-outline .aboutProject {
   margin-right: 1em;
 }
 
