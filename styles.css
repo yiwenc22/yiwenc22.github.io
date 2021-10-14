@@ -32,7 +32,7 @@ body {
 }
 
 .dark {
-  --clr-bg: #233e24;
+  --clr-bg: #292929;
   --clr-bg-alt: #313135;
   --clr-fg: #bdbddd;
   --clr-fg-alt: #cdcdff;
@@ -93,10 +93,6 @@ button {
     font-size: 2.6rem;
   }
 }
-
-/*===================
-  buttons and links
-===================*/
 
 .link {
   color: var(--clr-primary);
