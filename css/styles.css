@@ -270,6 +270,11 @@ main {
   margin-top: 2em;
 }
 
+.aboutProject {
+  align-items: flex-start;
+  margin-top: 2em;
+}
+
 .job {
   text-align: left;
   margin-top: 1.2em;
@@ -359,7 +364,7 @@ main {
   text-align: center;
 }
 
-.footer__link {
+.footer_link {
   font-size: 0.9rem;
   font-weight: 700;
   color: var(--clr-fg);
