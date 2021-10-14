@@ -27,16 +27,16 @@ body {
   --clr-bg-alt: #fff;
   --clr-fg: #555;
   --clr-fg-alt: #444;
-  --clr-primary: #2978b5;
+  --clr-primary: #515050;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .dark {
-  --clr-bg: #23283e;
-  --clr-bg-alt: #2a2f4c;
+  --clr-bg: #233e24;
+  --clr-bg-alt: #313135;
   --clr-fg: #bdbddd;
   --clr-fg-alt: #cdcdff;
-  --clr-primary: #90a0d9;
+  --clr-primary: #e3e3e3;
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
@@ -140,7 +140,6 @@ button {
   padding: 0.8em 1.4em;
   font-weight: 500;
   font-size: 0.9rem;
-  text-transform: lowercase;
   transition: transform 0.2s ease-in-out;
 }
 
@@ -261,7 +260,7 @@ main {
 
 .about__desc {
   font-size: 1rem;
-  max-width: 600px;
+  max-width: 800px;
 }
 
 .about__desc,
