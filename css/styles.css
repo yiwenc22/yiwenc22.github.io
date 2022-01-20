@@ -251,14 +251,13 @@ main {
 .myInfo {
   display: block;
   vertical-align:middle;
-  margin: 5px;
 }
 
 .myFace {
   vertical-align:middle;
   border-radius: 50%;
-  border:5px solid black;
-  margin: 5px;
+  border:2px solid black;
+  margin-right: 3em;
 }
 
 .about {
