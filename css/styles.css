@@ -256,7 +256,7 @@ main {
 .myFace {
   vertical-align:middle;
   border-radius: 50%;
-  border:2px solid black;
+  border:2px solid dimgrey;
   margin-right: 2em;
 }
 
