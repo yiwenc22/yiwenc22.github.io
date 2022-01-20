@@ -241,6 +241,10 @@ main {
   width: 1em;
 }
 
+.myface {
+  border-radius: 50%;
+}
+
 .about {
   flex-direction: column;
   margin-top: 3em;
