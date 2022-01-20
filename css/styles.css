@@ -243,24 +243,26 @@ main {
 
 .meFace {
   margin: 0 auto;
+  max-width: 880px;
   clear: both;
   display: flex;
 }
 
 .myInfo {
   display: block;
+  vertical-align:middle;
+  margin: 5px;
 }
 
 .myFace {
   vertical-align:middle;
   border-radius: 50%;
-  border:3px solid black;
-  margin: 10px;
+  border:5px solid black;
+  margin: 5px;
 }
 
 .about {
   flex-direction: column;
-  margin-top: 3em;
 }
 
 .name {
@@ -272,13 +274,13 @@ main {
 }
 
 .description {
-  font-size: 1rem;
-  max-width: 800px;
+  font-size: 1.1rem;
+  max-width: 825px;
 }
 
 .description,
 .contact {
-  margin-top: 2.4em;
+  margin-top: 2em;
 }
 
 .about .link-icon {
