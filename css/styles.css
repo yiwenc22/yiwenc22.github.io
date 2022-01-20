@@ -241,8 +241,18 @@ main {
   width: 1em;
 }
 
-.myface {
-  vertical-align: middle;
+.meFace {
+  margin: 0 auto;
+  clear: both;
+  display: flex;
+}
+
+.myInfo {
+  display: block;
+}
+
+.myFace {
+  vertical-align:middle;
   border-radius: 50%;
   border:3px solid black;
   margin: 10px;
