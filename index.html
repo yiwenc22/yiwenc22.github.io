@@ -68,7 +68,7 @@
         <img class="myFace" src="../images/Mypictureme.jpg" height="225" width="225" alt="Avatar">
       <div class="myInfo">
         <h1>Hi, I'm <span class="name">Yiwen Chen</span></h1>
-        <h3 class="job">A Student</h3>
+        <h3 class="job">A Student & Graduate Research Assistant</h3>
       </div>
       </div>
       <div class="about center">
@@ -91,254 +91,278 @@
       <section id="projects" class="section projects">
         <h2 class="section__title">Projects</h2>
 
-        <div class="projects__grid">
+        <div class="mytabs">
 
-          <div class="project">
-            <h3>Peer Review Finder</h3>
-            <img src="../images/landingPRF.png" width="250" height="200">
-            <p>2021-11-10</p>
-            <p class="project__description">
-              Peer Review Finder was created to solve a problem. The problem was that Journal editors and conference chairs find it increasingly difficult to find reviewers for publication manuscripts. At the same time, researchers receive an overwhelming number of invitations to review papers.
+          <input type="radio" id="tabweb" name="mytabs" checked="checked">
+          <label for="tabweb">Web Development</label>
+          <div class="tab">
+            <div class="projects__grid">
 
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">HTML/CSS</li>
-              <li class="project__stack-item">JavaScript</li>
-              <li class="project__stack-item">ICS613</li>
-            </ul>
+              <div class="project">
+                <h3>Peer Review Finder</h3>
+                <img src="../images/landingPRF.png" width="250" height="200">
+                <p>2021-11-10</p>
+                <p class="project__description">
+                  Peer Review Finder was created to solve a problem. The problem was that Journal editors and conference chairs find it increasingly difficult to find reviewers for publication manuscripts. At the same time, researchers receive an overwhelming number of invitations to review papers.
 
-            <a
-                href="https://github.com/peer-review-finder/Source-Code"
-                target="_blank" rel="noopener noreferrer"
-                aria-label="source code"
-                class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-                href="https://peer-review-finder.github.io/"
-                target="_blank" rel="noopener noreferrer"
-                aria-label="read more"
-                class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
-            <div>
-              <a href="projects/PeerReviewFinder.html" class="link link--icon">Read More <i aria-hidden="true" class="fas fa-arrow-down"></i></a>
+                </p>
+                <ul class="project__stack">
+                  <li class="project__stack-item">HTML/CSS</li>
+                  <li class="project__stack-item">JavaScript</li>
+                  <li class="project__stack-item">ICS613</li>
+                </ul>
+
+                <a
+                    href="https://github.com/peer-review-finder/Source-Code"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="source code"
+                    class="link link--icon"
+                >
+                  <i aria-hidden="true" class="fab fa-github"></i>
+                </a>
+                <a
+                    href="https://peer-review-finder.github.io/"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="read more"
+                    class="link link--icon"
+                >
+                  <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+                </a>
+                <div>
+                  <a href="projects/PeerReviewFinder.html" class="link link--icon">Read More <i aria-hidden="true" class="fas fa-arrow-down"></i></a>
+                </div>
+              </div>
+
+
+              <div class="project">
+                <h3>Lamtech-report sight</h3>
+                <img src="../images/ss1.png" width="250" height="200">
+                <p>2021-11-10</p>
+                <p class="project__description">
+                  An online reporting platform developed for Hawai'i Marine Animal Response (HMAR).
+                  Using Google API to detect where location is and show it on a google map.
+                  The site also allow HMAR worker to Export the data in .CSV
+                </p>
+                <ul class="project__stack">
+                  <li class="project__stack-item">HTML/CSS</li>
+                  <li class="project__stack-item">JavaScript</li>
+                  <li class="project__stack-item">HACC</li>
+                </ul>
+
+                <a
+                    href="https://github.com/HACC2021/LamTech"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="source code"
+                    class="link link--icon"
+                >
+                  <i aria-hidden="true" class="fab fa-github"></i>
+                </a>
+                <a
+                    href="https://devpost.com/software/lamtech"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="read more"
+                    class="link link--icon"
+                >
+                  <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+                </a>
+                <div>
+                  <a href="projects/HACC.html" class="link link--icon">Read More <i aria-hidden="true" class="fas fa-arrow-down"></i></a>
+                </div>
+              </div>
+
+              <div class="project">
+                <h3>Event Finder</h3>
+                <img src="../images/h23.png" width="250" height="200">
+                <p>2021-10-22</p>
+                <p class="project__description">
+                  This app is a social application that trying to connect people together after the covid crisis, it allow
+                  people to create event and join other events to make friend and make their life happy again.
+                </p>
+                <ul class="project__stack">
+                  <li class="project__stack-item">HTML/CSS</li>
+                  <li class="project__stack-item">JavaScript</li>
+                  <li class="project__stack-item">Meteor Hackathon</li>
+                </ul>
+
+                <a
+                    href="https://github.com/Lam-Tech/Event-Finder"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="source code"
+                    class="link link--icon"
+                >
+                  <i aria-hidden="true" class="fab fa-github"></i>
+                </a>
+                <a
+                    href="https://eventfinder.meteorapp.com/#/"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="read more"
+                    class="link link--icon"
+                >
+                  <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+                </a>
+                <div>
+                  <a href="projects/MeteorHack.html" class="link link--icon">Read More <i aria-hidden="true" class="fas fa-arrow-down"></i></a>
+                </div>
+              </div>
+
+              <div class="project">
+                <h3>Covid Tracker</h3>
+                <img src="../images/landpage.png" width="250" height="200">
+                <p>2021-10-13</p>
+                <p class="project__description">
+                  This app is a self-screening platform that makes it easy for individuals
+                  to provide a daily self-attestation of their health status before leaving their home.
+                  Is a question and answer application to help prevents COVID spreading.
+                </p>
+                <ul class="project__stack">
+                  <li class="project__stack-item">HTML/CSS</li>
+                  <li class="project__stack-item">JavaScript</li>
+                  <li class="project__stack-item">React</li>
+                </ul>
+
+                <a
+                    href="https://github.com/Lam-Tech/covid-tracker"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="source code"
+                    class="link link--icon"
+                >
+                  <i aria-hidden="true" class="fab fa-github"></i>
+                </a>
+                <a
+                    href="https://lam-tech.github.io/"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="read more"
+                    class="link link--icon"
+                >
+                  <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+                </a>
+                <div>
+                  <a href="projects/CovidTracker.html" class="link link--icon">Read More <i aria-hidden="true" class="fas fa-arrow-down"></i></a>
+                </div>
+              </div>
+
+              <div class="project">
+                <h3>GHG-Tracker</h3>
+                <img src="../images/ghgtr.png" width="250" height="200">
+                <p>2021-05-15</p>
+                <p class="project__description">
+                  A site created for Hawaiian Electric Industries
+                  to track greenhouse gas produced by car from individual.
+
+                </p>
+                <ul class="project__stack">
+                  <li class="project__stack-item">HTML/CSS</li>
+                  <li class="project__stack-item">JavaScript</li>
+                  <li class="project__stack-item">React</li>
+                </ul>
+
+                <a
+                    href="https://github.com/hot-n-code/ghg-tracker"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="source code"
+                    class="link link--icon"
+                >
+                  <i aria-hidden="true" class="fab fa-github"></i>
+                </a>
+                <a
+                    href="https://hot-n-code.github.io/"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="read more"
+                    class="link link--icon"
+                >
+                  <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+                </a>
+                <div>
+                  <a href="projects/GHGTracker.html" class="link link--icon">Read More <i aria-hidden="true" class="fas fa-arrow-down"></i></a>
+                </div>
+              </div>
+
+              <div class="project">
+                <h3>Manoa Music Bubs</h3>
+                <img src="../images/musicbubs.png" width="250" height="200">
+                <p>2020-05-15</p>
+                <p class="project__description">
+                  A site created for the final project for ICS 314.
+                  That allow people with the same music interest to be friends
+                </p>
+                <ul class="project__stack">
+                  <li class="project__stack-item">JavaScript</li>
+                  <li class="project__stack-item">Music</li>
+                  <li class="project__stack-item">React</li>
+                </ul>
+
+                <a
+                    href="https://github.com/manoa-musicbubs/manoa-musicbuds-source"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="source code"
+                    class="link link--icon"
+                >
+                  <i aria-hidden="true" class="fab fa-github"></i>
+                </a>
+                <a
+                    href="https://manoa-musicbubs.github.io/"
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="read more"
+                    class="link link--icon"
+                >
+                  <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+                </a>
+                <div>
+                  <a  href="projects/ManoaMusicBub.html" class="link link--icon">Read More <i aria-hidden="true" class="fas fa-arrow-down"></i></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <input type="radio" id="tabGame" name="mytabs">
+          <label for="tabGame">Game Development</label>
+          <div class="tab">
+            <div class="projects__grid">
+            <div class="project">
+              <h3>Dice & Monster</h3>
+              <img src="../images/dice1.png" width="250" height="200">
+              <p>2018-11-03</p>
+              <p class="project__description">
+                A game created by me and Chakhon for the class ICS 111,
+                We draw, plan, and code this game.
+              </p>
+              <ul class="project__stack">
+                <li class="project__stack-item">Java</li>
+                <li class="project__stack-item">Pixelart</li>
+                <li class="project__stack-item">Game</li>
+              </ul>
+
+              <a
+                  href="https://github.com/yiwenc22/Dice-and-Monster"
+                  target="_blank" rel="noopener noreferrer"
+                  aria-label="source code"
+                  class="link link--icon"
+              >
+                <i aria-hidden="true" class="fab fa-github"></i>
+              </a>
+              <a
+                  href="https://www.youtube.com/watch?v=Nr1R9RVr3mc"
+                  target="_blank" rel="noopener noreferrer"
+                  aria-label="read more"
+                  class="link link--icon"
+              >
+                <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+              </a>
+              <div>
+                <a href="projects/DiceNMonster.html" class="link link--icon">Read More <i aria-hidden="true" class="fas fa-arrow-down"></i></a>
+              </div>
+            </div>
+
             </div>
           </div>
 
 
-          <div class="project">
-            <h3>Lamtech-report sight</h3>
-            <img src="../images/ss1.png" width="250" height="200">
-            <p>2021-11-10</p>
-            <p class="project__description">
-              An online reporting platform developed for Hawai'i Marine Animal Response (HMAR).
-              Using Google API to detect where location is and show it on a google map.
-              The site also allow HMAR worker to Export the data in .CSV
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">HTML/CSS</li>
-              <li class="project__stack-item">JavaScript</li>
-              <li class="project__stack-item">HACC</li>
-            </ul>
+          <input type="radio" id="tabOthers" name="mytabs">
+          <label for="tabOthers">Others Development</label>
+          <div class="tab">
+            <div class="projects__grid">
 
-            <a
-                href="https://github.com/HACC2021/LamTech"
-                target="_blank" rel="noopener noreferrer"
-                aria-label="source code"
-                class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-                href="https://devpost.com/software/lamtech"
-                target="_blank" rel="noopener noreferrer"
-                aria-label="read more"
-                class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
-            <div>
-              <a href="projects/HACC.html" class="link link--icon">Read More <i aria-hidden="true" class="fas fa-arrow-down"></i></a>
-            </div>
-          </div>
-
-          <div class="project">
-            <h3>Event Finder</h3>
-            <img src="../images/h23.png" width="250" height="200">
-            <p>2021-10-22</p>
-            <p class="project__description">
-              This app is a social application that trying to connect people together after the covid crisis, it allow
-              people to create event and join other events to make friend and make their life happy again.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">HTML/CSS</li>
-              <li class="project__stack-item">JavaScript</li>
-              <li class="project__stack-item">Meteor Hackathon</li>
-            </ul>
-
-            <a
-                href="https://github.com/Lam-Tech/Event-Finder"
-                target="_blank" rel="noopener noreferrer"
-                aria-label="source code"
-                class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-                href="https://eventfinder.meteorapp.com/#/"
-                target="_blank" rel="noopener noreferrer"
-                aria-label="read more"
-                class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
-            <div>
-              <a href="projects/MeteorHack.html" class="link link--icon">Read More <i aria-hidden="true" class="fas fa-arrow-down"></i></a>
-            </div>
-          </div>
-
-          <div class="project">
-            <h3>Covid Tracker</h3>
-            <img src="../images/landpage.png" width="250" height="200">
-            <p>2021-10-13</p>
-            <p class="project__description">
-              This app is a self-screening platform that makes it easy for individuals
-              to provide a daily self-attestation of their health status before leaving their home.
-              Is a question and answer application to help prevents COVID spreading.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">HTML/CSS</li>
-              <li class="project__stack-item">JavaScript</li>
-              <li class="project__stack-item">React</li>
-            </ul>
-
-            <a
-                href="https://github.com/Lam-Tech/covid-tracker"
-                target="_blank" rel="noopener noreferrer"
-                aria-label="source code"
-                class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-                href="https://lam-tech.github.io/"
-                target="_blank" rel="noopener noreferrer"
-                aria-label="read more"
-                class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
-            <div>
-              <a href="projects/CovidTracker.html" class="link link--icon">Read More <i aria-hidden="true" class="fas fa-arrow-down"></i></a>
-            </div>
-          </div>
-
-          <div class="project">
-            <h3>GHG-Tracker</h3>
-            <img src="../images/ghgtr.png" width="250" height="200">
-            <p>2021-05-15</p>
-            <p class="project__description">
-              A site created for Hawaiian Electric Industries
-              to track greenhouse gas produced by car from individual.
-
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">HTML/CSS</li>
-              <li class="project__stack-item">JavaScript</li>
-              <li class="project__stack-item">React</li>
-            </ul>
-
-            <a
-                href="https://github.com/hot-n-code/ghg-tracker"
-                target="_blank" rel="noopener noreferrer"
-                aria-label="source code"
-                class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-                href="https://hot-n-code.github.io/"
-                target="_blank" rel="noopener noreferrer"
-                aria-label="read more"
-                class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
-            <div>
-              <a href="projects/GHGTracker.html" class="link link--icon">Read More <i aria-hidden="true" class="fas fa-arrow-down"></i></a>
-            </div>
-          </div>
-
-          <div class="project">
-            <h3>Manoa Music Bubs</h3>
-            <img src="../images/musicbubs.png" width="250" height="200">
-            <p>2020-05-15</p>
-            <p class="project__description">
-              A site created for the final project for ICS 314.
-              That allow people with the same music interest to be friends
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">JavaScript</li>
-              <li class="project__stack-item">Music</li>
-              <li class="project__stack-item">React</li>
-            </ul>
-
-            <a
-              href="https://github.com/manoa-musicbubs/manoa-musicbuds-source"
-              target="_blank" rel="noopener noreferrer"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-              href="https://manoa-musicbubs.github.io/"
-              target="_blank" rel="noopener noreferrer"
-              aria-label="read more"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
-            <div>
-              <a  href="projects/ManoaMusicBub.html" class="link link--icon">Read More <i aria-hidden="true" class="fas fa-arrow-down"></i></a>
-            </div>
-          </div>
-
-          <div class="project">
-            <h3>Dice & Monster</h3>
-            <img src="../images/dice1.png" width="250" height="200">
-            <p>2018-11-03</p>
-            <p class="project__description">
-              A game created by me and Chakhon for the class ICS 111,
-              We draw, plan, and code this game.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">Java</li>
-              <li class="project__stack-item">Pixelart</li>
-              <li class="project__stack-item">Game</li>
-            </ul>
-
-            <a
-                href="https://github.com/yiwenc22/Dice-and-Monster"
-                target="_blank" rel="noopener noreferrer"
-                aria-label="source code"
-                class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-                href="https://www.youtube.com/watch?v=Nr1R9RVr3mc"
-                target="_blank" rel="noopener noreferrer"
-                aria-label="read more"
-                class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
-            <div>
-              <a href="projects/DiceNMonster.html" class="link link--icon">Read More <i aria-hidden="true" class="fas fa-arrow-down"></i></a>
             </div>
           </div>
 
@@ -515,16 +539,7 @@
         </button>
       </section>
     </main>
-
-    <footer class="footer">
-      <a
-        href="https://github.com/yiwenc22/yiwenc22.github.io"
-        class="link footer__link"
-        target="_blank" rel="noopener noreferrer"
-      >
-        Portfolio Created By Yiwen Chen
-      </a>
-    </footer>
+    <br>
 
     <div class="scroll-container">
     <div class="scroll-top">

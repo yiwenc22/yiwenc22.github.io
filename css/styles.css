@@ -332,6 +332,39 @@ main {
   margin-left: 0.5em;
 }
 
+.mytabs {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1600px;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+.mytabs input[type="radio"] {
+  display: none;
+}
+.mytabs label {
+  padding: 15px;
+  background: var(--clr-bg);
+  border-radius: 50px;
+  text-transform: uppercase;
+}
+
+.mytabs .tab {
+  width: 100%;
+  padding: 20px;
+  order: 1;
+  display: none;
+}
+
+.mytabs input[type='radio']:checked + label + .tab {
+  display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+  background: var(--clr-primary);
+}
+
 .skills_list {
   max-width: 450px;
   width: 95%;
