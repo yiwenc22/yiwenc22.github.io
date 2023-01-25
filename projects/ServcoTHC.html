@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="../index.html#projects" class="link"
+          >Y.C</a
+        >
+      </h3>
+    </header>
+
+    <main>
+      <div class="about">
+      <h2 class="center">
+        Toyota Hawaii Care Claim automated validation
+      </h2>
+        <br>
+        <img class="center" src="../images/ServcoTHC.png" width="600" height="400" >
+        <br><br>
+        <h2>Overview</h2>
+        <p>Due to the COVID, Servco was low in staff and when doing validation for claim for the Toyota Hawaii Care is slow and have mistake. So, Servco decided to create an automate system that will validate the claim and process it.
+        The system is using api call to run sql sproc that doing all the validation and processing it if it passes all validation.</p>
+        <br><br>
+        <h2>What I contributed to the project</h2>
+        <p>In the project, I was the one of the two software engineer. I mainly focus on creating all the sql sproc that doing the validation base on what the claim manager told us. For example, the car under the claim number have to be bought in Hawaii less than 2 year. Than I will create a sql
+        sproc that will take in the claim number and check database if the purchase location is hawaii and compare the current time to see if the car is bought less than 2 year.</p>
+      </div>
+    </main>
+
+    <script src="../script/script.js"></script>
+  </body>
+</html>
