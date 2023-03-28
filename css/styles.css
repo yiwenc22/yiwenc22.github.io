@@ -198,6 +198,11 @@ button {
   layout
 ========*/
 
+.center {
+  display: flex;
+  align-items: center;
+}
+
 .header {
   height: 8em;
   max-width: 1100px;
@@ -448,12 +453,13 @@ main {
     display: none;
   }
 
-  .center {
+  .video-spec {
     display: block;
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
+
   .iframe-container {
     position: relative;
     overflow: hidden;
