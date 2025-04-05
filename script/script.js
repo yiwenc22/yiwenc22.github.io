@@ -1,63 +1,66 @@
-const body = document.body
+const body = document.body;
+const btnTheme = document.querySelector('.fa-moon');
+const btnHamburger = document.querySelector('.fa-bars');
 
-const btnTheme = document.querySelector('.fa-moon')
-const btnHamburger = document.querySelector('.fa-bars')
-
-const addThemeClass = (bodyClass, btnClass) => {
-  body.classList.add(bodyClass)
-  btnTheme.classList.add(btnClass)
+// Set default to dark theme
+if (!localStorage.getItem('theme')) {
+  localStorage.setItem('theme', 'dark');
 }
 
-const getBodyTheme = localStorage.getItem('portfolio-theme')
-const getBtnTheme = localStorage.getItem('portfolio-btn-theme')
-
-addThemeClass(getBodyTheme, getBtnTheme)
-
-const isDark = () => body.classList.contains('dark')
-
-const setTheme = (bodyClass, btnClass) => {
-
-	body.classList.remove(localStorage.getItem('portfolio-theme'))
-	btnTheme.classList.remove(localStorage.getItem('portfolio-btn-theme'))
-
-  addThemeClass(bodyClass, btnClass)
-
-	localStorage.setItem('portfolio-theme', bodyClass)
-	localStorage.setItem('portfolio-btn-theme', btnClass)
-}
-//stackoverflow
-const toggleTheme = () =>
-	isDark() ? setTheme('light', 'fa-moon') : setTheme('dark', 'fa-sun')
-
-btnTheme.addEventListener('click', toggleTheme)
-
-const displayList = () => {
-	const navUl = document.querySelector('.nav_list')
-
-	if (btnHamburger.classList.contains('fa-bars')) {
-		btnHamburger.classList.remove('fa-bars')
-		btnHamburger.classList.add('fa-times')
-		navUl.classList.add('display-nav-list')
-	} else {
-		btnHamburger.classList.remove('fa-times')
-		btnHamburger.classList.add('fa-bars')
-		navUl.classList.remove('display-nav-list')
-	}
+// Check if the user has a theme preference
+const theme = localStorage.getItem('theme');
+if (theme === 'dark') {
+  body.classList.replace('light', 'dark');
+  btnTheme.classList.replace('fa-moon', 'fa-sun');
 }
 
-btnHamburger.addEventListener('click', displayList)
+// Switch theme function
+const changeTheme = () => {
+  if (body.classList.contains('light')) {
+    body.classList.replace('light', 'dark');
+    btnTheme.classList.replace('fa-moon', 'fa-sun');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    body.classList.replace('dark', 'light');
+    btnTheme.classList.replace('fa-sun', 'fa-moon');
+    localStorage.setItem('theme', 'light');
+  }
+};
 
-const scrollUp = () => {
-	const btnScrollTop = document.querySelector('.scroll-top')
+// Responsive navigation menu
+const openMenu = () => {
+  const navList = document.querySelector('.nav__list');
+  if (!navList.classList.contains('display-nav-list')) {
+    navList.classList.add('display-nav-list');
+    btnHamburger.classList.replace('fa-bars', 'fa-times');
+  } else {
+    navList.classList.remove('display-nav-list');
+    btnHamburger.classList.replace('fa-times', 'fa-bars');
+  }
+};
 
-	if (
-		body.scrollTop > 500 ||
-		document.documentElement.scrollTop > 500
-	) {
-		btnScrollTop.style.display = 'block'
-	} else {
-		btnScrollTop.style.display = 'none'
-	}
+// Event listeners
+btnTheme.addEventListener('click', changeTheme);
+btnHamburger.addEventListener('click', openMenu);
+
+// Scroll to top functionality
+const scrollUp = document.querySelector('.scroll-top');
+if (scrollUp) {
+  window.addEventListener('scroll', () => {
+    if (window.pageYOffset > 100) {
+      scrollUp.style.display = 'block';
+    } else {
+      scrollUp.style.display = 'none';
+    }
+  });
 }
 
-document.addEventListener('scroll', scrollUp)
+// Smooth scroll for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+});

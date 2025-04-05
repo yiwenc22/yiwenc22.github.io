@@ -34,7 +34,7 @@
     ></script>
     <link rel="stylesheet" href="../css/styles.css" />
   </head>
-  <body class="light" id="top">
+  <body class="dark" id="top">
     <header class="header center">
       <h3>
         <a href="../index.html#projects" class="link"
@@ -79,14 +79,29 @@
       </div>
         <section class="section contact center" id="contact">
           <h2 class="section__title">Contact Info</h2>
-          <p>If have any question</p>
-          <a href="mailto:yiwenc22@gmail.com">
-            <span class="btn btn--outline">Email me</span>
-          </a>
-          <p>Try out the night/day mode</p>
-          <button type="button" aria-label="toggle theme" class="btn btn--icon">
-            <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
-          </button>
+          <div class="contact-links">
+            <a href="mailto:yiwenc22@gmail.com" class="contact-item">
+              <i class="fas fa-envelope contact-icon"></i>
+              <span class="btn btn--outline">Email me</span>
+            </a>
+            
+            <a href="https://github.com/yiwenc22" target="_blank" rel="noopener noreferrer" class="contact-item">
+              <i class="fab fa-github contact-icon"></i>
+              <span class="btn btn--outline">GitHub</span>
+            </a>
+            
+            <a href="https://linkedin.com/in/yiwen-chen-93687819a" target="_blank" rel="noopener noreferrer" class="contact-item">
+              <i class="fab fa-linkedin contact-icon"></i>
+              <span class="btn btn--outline">LinkedIn</span>
+            </a>
+          </div>
+          
+          <div class="theme-toggle">
+            <p>Toggle night/day mode</p>
+            <button type="button" aria-label="toggle theme" class="btn btn--icon">
+              <i aria-hidden="true" id="btn-theme" class="fas fa-sun"></i>
+            </button>
+          </div>
 
           <button
                   type="button"
